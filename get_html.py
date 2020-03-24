@@ -16,3 +16,18 @@ demo = r.text
 soup = BeautifulSoup(demo,'html.parser')
 
 print(soup.prettify())
+
+
+print('====================================================')
+print('\n')
+print('====================================================')
+
+print(soup.title)
+print(soup.title.name)
+print(soup.title.attrs)
+print(soup.title.string)
+print('====================================================')
+print(soup.p)
+print(soup.title.name)
+print(soup.title.attrs)
+print(soup.title.string)
