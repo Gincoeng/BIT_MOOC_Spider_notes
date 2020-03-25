@@ -31,3 +31,16 @@ print(soup.p)
 print(soup.title.name)
 print(soup.title.attrs)
 print(soup.title.string)
+
+		
+		
+print('====================================================')
+print('\n')
+print('====================================================')
+print(soup.head)
+print(soup.head.contents)
+print(len(soup.head.contents))		
+print(soup.head.children)
+print(soup.title.parent)
+print(soup.title.next_siblings)
+print(soup.title.previrous_siblings)
